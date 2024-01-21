@@ -148,8 +148,11 @@ In the case where the compared values are different, the value divided will not 
 
 # Slave Program
 
+The slave program uses the NewPing.h library to control the ultrasonic sensors. The ultrasonic sensor only registers a input if anything comes within 1 - 3 cm of distance to it. If input is registered, it then displays the number assigned to it by the master board for a set amount of time before clearing the display again and showing nothing. Likewise if no input is detected nothing will be displayed.
+
 ![image](https://github.com/Acctrina/Arduino-NumberMatchingGame/assets/126780174/873db296-c4d6-4e91-9e96-d8470147ae54)
 
+The number patterns are saved in binary representation to be displayed when needed.
 ![image](https://github.com/Acctrina/Arduino-NumberMatchingGame/assets/126780174/56546f79-af9d-4a99-b43b-309fb03310cb)
 
 # Using interrupt for Timer
