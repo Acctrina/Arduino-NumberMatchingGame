@@ -52,9 +52,27 @@ The reset module serves two purposes, one which is to start a new game while the
 
 ![image](https://github.com/Acctrina/Arduino-NumberMatchingGame/assets/126780174/02108a42-d5bd-404e-9f86-8631930e7cd8)
 
+# Assinging Unqiue Address to each Slave Board
+
+### Using EEPROM
+
+EEPROM stands for electrically erasable programmable read-only memory and is a type of non-volatile memory used in computers, microcontrollers and other electronic devices to store small amounts of data that can be erased and rewritten.
+
+By using EEPROM I can assign the 16 slave modules their own unique ID. This unique ID is then permenantly stored for about a lifetime of 100,000 write cycles. With the slaves having their own ID, it can then be used for specific transmission of data by the Master to the Slave on a specific one to one basis. 
+
+By using this code, it allows me to write and read values to and from the EEPROM of each slave device through the serial monitor.
+
+![image](https://github.com/Acctrina/Arduino-NumberMatchingGame/assets/126780174/f618f699-2e29-4d8c-939a-eb8ed68c35d1)
+
 # Slave Program
 
-Each slave board is first assigned an ID using EEPROM
+![image](https://github.com/Acctrina/Arduino-NumberMatchingGame/assets/126780174/701411cd-23a1-4693-a4a7-faa8d278cd06)
+
+![image](https://github.com/Acctrina/Arduino-NumberMatchingGame/assets/126780174/56546f79-af9d-4a99-b43b-309fb03310cb)
+
+
+
+
 
 # Master Program 
 
