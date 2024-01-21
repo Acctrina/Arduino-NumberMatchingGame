@@ -153,6 +153,7 @@ The slave program uses the NewPing.h library to control the ultrasonic sensors. 
 ![image](https://github.com/Acctrina/Arduino-NumberMatchingGame/assets/126780174/873db296-c4d6-4e91-9e96-d8470147ae54)
 
 The number patterns are saved in binary representation to be displayed when needed.
+
 ![image](https://github.com/Acctrina/Arduino-NumberMatchingGame/assets/126780174/56546f79-af9d-4a99-b43b-309fb03310cb)
 
 # Using interrupt for Timer
