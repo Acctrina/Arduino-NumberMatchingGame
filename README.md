@@ -64,16 +64,6 @@ By using this code, it allows me to write and read values to and from the EEPROM
 
 ![image](https://github.com/Acctrina/Arduino-NumberMatchingGame/assets/126780174/f618f699-2e29-4d8c-939a-eb8ed68c35d1)
 
-# Slave Program
-
-![image](https://github.com/Acctrina/Arduino-NumberMatchingGame/assets/126780174/701411cd-23a1-4693-a4a7-faa8d278cd06)
-
-![image](https://github.com/Acctrina/Arduino-NumberMatchingGame/assets/126780174/56546f79-af9d-4a99-b43b-309fb03310cb)
-
-
-
-
-
 # Master Program 
 
 The master program mainly uses 2 libraries, Wire.h to allow communication between I2C devices and Ledcontrol.h to support up to 8 daisy chained MAX72XX drivers for the timer module through SPI.
@@ -155,6 +145,12 @@ In the case where the compared values are different, the value divided will not 
 ### Serial Monitor Output:
 
 ![image](https://github.com/Acctrina/Arduino-NumberMatchingGame/assets/126780174/94f3327b-ba84-4945-8d2f-1d641d88e725)
+
+# Slave Program
+
+![image](https://github.com/Acctrina/Arduino-NumberMatchingGame/assets/126780174/873db296-c4d6-4e91-9e96-d8470147ae54)
+
+![image](https://github.com/Acctrina/Arduino-NumberMatchingGame/assets/126780174/56546f79-af9d-4a99-b43b-309fb03310cb)
 
 # Using interrupt for Timer
 
