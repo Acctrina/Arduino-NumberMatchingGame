@@ -1,6 +1,8 @@
 # Project Overview
 A memory-based number matching game to help keep the minds of seniors active through daily use of their cognitive functions to help combat the long-term effects of dementia. This project has been made to be used in active ageing centers around Singapore and has been specifically designed with simplicity in mind to be catered to the elderly for ease of use, as well as to be contactless for hygiene purposes.
 
+[Demo Video](https://youtu.be/ulNHK4TYE94)
+
 # Board Design
 
 **Slave Board:**
